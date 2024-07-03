@@ -1,0 +1,102 @@
+body,header{
+    background-color: hsl(47, 88%, 63%);
+    font-family:"Figtree";
+    font-weight:500;
+}
+.card{
+    width:30%;
+    background-color:hsl(0, 0%, 98%);
+    border:1px solid black;
+    border-radius:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:15px;
+    box-shadow: 7px 7px black;
+    box-sizing: border-box;
+}
+img{
+    width:100%;
+    margin-bottom:22px;
+    border:0 solid black;
+    border-radius:20px;
+    
+}
+header{
+    display:inline;
+    margin-right:80%;
+    padding:5px;
+    font-weight:800;
+    font-size:medium;
+}
+
+.profile-img{
+    width:30px;
+    display:inline;
+}
+body{
+    font-size:16px;
+}
+
+p{
+    color:hsl(0, 1%, 38%);
+}
+h1{
+    font-weight:700;
+    font-size:30px;
+}
+figcaption{
+    margin-top:22px;
+    margin-bottom:15px;
+}
+span{
+    position:relative;
+    top:-30px;
+    font-weight:800;
+    left:2px;
+    font-size:medium;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .card{
+        width:45%
+    }
+  }
+
+  @media only screen and (max-width: 840px) {
+    .card{
+        width:60%;
+    }
+    header,span{
+        font-size:small;
+    }
+    figcaption,p{
+        font-size:14px
+    }
+    h1{
+        font-size: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .card{
+        width:75%
+    }
+  }
+
+  @media only screen and (max-width: 506px) and (min-device-width: 320px) {
+    .card{
+        width:85%
+    }
+    header,span{
+        font-size:smaller;
+    }
+    figcaption,p{
+        font-size:12px
+    }
+    h1{
+        font-size: 20px;
+    }
+  }
